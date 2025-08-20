@@ -29,12 +29,12 @@ This tool enables internal users to define product categories, add category-spec
 ## Screenshots
 
 ## Home page before adding products
-![Image 1](Images/img1.png)
+![Image 1](client/Images/img1.png)
 ## Category page
-![Image 2](Images/img2.png)
+![Image 2](client/Images/img2.png)
 ## Atrribute page
-![Image 3](Images/img3.png)
+![Image 3](client/Images/img3.png)
 ## Product page
-![Image 4](Images/img4.png)
+![Image 4](client/Images/img4.png)
 ## Home page after adding products
-![Image 5](Images/img5.png)
+![Image 5](client/Images/img5.png)
