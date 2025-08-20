@@ -21,7 +21,7 @@ const AttributeManager = ({ categories }) => {
 
   const fetchAttributes = async (categoryId) => {
     try {
-      const res = await api.get(`/categories/${categoryId}/attributes`);
+      const res = await api.get(`/attributes/${categoryId}/attributes`);
       setAttributes(res.data);
     } catch (error) {
       console.error("Error fetching attributes", error);

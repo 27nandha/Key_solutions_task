@@ -20,7 +20,7 @@ const CreateProductForm = ({ onProductCreated }) => {
     if (selectedCategory) {
       const fetchAttributes = async () => {
         const response = await api.get(
-          `/categories/${selectedCategory}/attributes`
+          `/attributes/${selectedCategory}/attributes`
         );
         setAttributes(response.data);
         setFormValues({});

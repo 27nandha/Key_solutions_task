@@ -29,7 +29,7 @@ app.use(cors({ origin: allowedOrigins, credentials: true }));
 
 // Routes
 app.use("/api/categories", categoryRoutes);
-app.use("/api/categories", attributeRoutes);
+app.use("/api/attributes", attributeRoutes);
 app.use("/api/products", productRoutes);
 
 // Root Route
