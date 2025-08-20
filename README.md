@@ -23,17 +23,14 @@ This tool enables internal users to define product categories, add category-spec
 - Project Type: Internal Product Catalog Management Tool
 
 ## Screenshots
-### Home Page (Before Adding Products)
-Image: Images/img1.png
 
-### Category Management
-Image: Images/img2.png
-
-### Attribute Management
-Image: Images/img3.png
-
-### Product Management
-Image: Images/img4.png
-
-### Home Page (After Adding Products)
-Image: Images/img5.png
+## Home page before adding products
+![Image 1](Images/img1.png)
+## Category page
+![Image 2](Images/img2.png)
+## Atrribute page
+![Image 3](Images/img3.png)
+## Product page
+![Image 4](Images/img4.png)
+## Home page after adding products
+![Image 5](Images/img5.png)
