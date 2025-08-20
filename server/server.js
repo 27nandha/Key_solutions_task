@@ -21,6 +21,8 @@ app.use(express.json());
 const allowedOrigins = [
   "http://localhost:5173",
   "https://key-solutions-task.vercel.app/",
+  "https://key-solutions-task-git-main-27nandhas-projects.vercel.app/",
+  "https://key-solutions-task-40xj51wz7-27nandhas-projects.vercel.app/",
 ];
 
 app.use(cors({ origin: allowedOrigins, credentials: true }));
