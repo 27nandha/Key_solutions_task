@@ -18,7 +18,12 @@ const app = express();
 // Middleware
 app.use(express.json());
 
-app.use(cors());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://key-solutions-task.vercel.app/",
+];
+
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 
 // Routes
 app.use("/api/categories", categoryRoutes);
